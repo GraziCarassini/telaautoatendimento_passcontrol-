@@ -21,25 +21,13 @@
 
 /* TOPO */
 
-.navegacao{
-    background-color: var(--cor-fundo);
-    background-image: url(../IMG/Quadrado\ logo\ 2.svg);
-    background-size: 35vh;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 200vh;
-    display: flex;
-    align-items: start;
-    justify-content: top;
-}
+
 
 .cabeca{
     background-color: var(--cinza-control);
     height: 137px;
     width: 100%;
-    position: fixed;
+    position: sticky;
     display: flex;
 }
 
@@ -70,4 +58,31 @@
     display: flex;
     align-items: center;
     font-size: 23px;
+}
+
+.area-servicos{
+    height: calc(100vh - 140px);
+    width: 100%;
+    display: flex;  
+    background-image: url(..//telaautoatendimento_passcontrol-/background.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /* background-color: red; */
+    
+}
+
+.box-servicos{
+    height: 80%;
+    width: 80%;
+    background-color: pink;
+    margin-top: 137px;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.seta{
+    background-color: #3AA867;
 }
