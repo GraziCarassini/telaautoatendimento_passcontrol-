@@ -69,20 +69,88 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     /* background-color: red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    
     
 }
 
-.box-servicos{
-    height: 80%;
-    width: 80%;
-    background-color: pink;
-    margin-top: 137px;
-    display: flex;
-    margin-right: 30px;
-    margin-left: 70px;
+.selecione-servico{
+    margin-top:0px;
+    align-items: center;
     justify-content: center;
+    font-size: 32px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    font-family: var(--font-main);
+    font-weight: 800;
 }
 
-.seta{
-    background-color: #3AA867;
+.box-servicos{
+    height: 90%;
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 5px 5px;
+    /* margin-top: 50px; */
+    display: flex;
+    /* margin-right: 0px; */
+    /* margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.area-quadrados{
+    display:flex ;
+    width: 70%;
+    height: 80%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 40px;
+    /* background-color: aliceblue; */
+    flex-direction: row;
+    align-items: center;
+    border: #33404D;
+    border-radius: 5px 5px 5px 5px;
+    /* padding: 20px; */
+    
+}
+
+.quadrado{
+    border: 4px solid var(--verde-control);
+    position: relative;
+    border-radius: 5px;
+    gap: 18px;
+    width: 221px;
+    height: 221px;
+    padding: 20px;
+    background-color: transparent;
+    
+}
+
+.imagem-servico{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nome-servico{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-proximaPagina{
+    background-color: transparent;
+    color: var(--cinza-control);
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    right: 150px;
+    display: flex;   
+}
+
