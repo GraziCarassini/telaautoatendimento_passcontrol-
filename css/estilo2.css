@@ -1,4 +1,4 @@
-:root{
+:root {
     --verde-control: #3AA867;
     --cinza-control: #33404D;
     --cor-fundo: #f9f9f9;
@@ -9,7 +9,7 @@
 /* https://isotropic.co/tool/hex-color-to-css-filter/ */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,15 +23,15 @@
 
 
 
-.cabeca{
+cabeca {
     background-color: var(--cinza-control);
-    height: 137px;
-    width: 100%;
+    height: auto;
+    width: auto;
     position: sticky;
     display: flex;
 }
 
-.nav-cabeca{
+.nav-cabeca {
     background-color: var(--cor-fundo);
     width: 100%;
     height: 100px;
@@ -40,18 +40,18 @@
     align-content: space-evenly;
 }
 
-.logo-control{
+.logo-control {
     width: fit-content;
     padding: 2px;
     padding-left: 5px;
 }
 
-#img-logo{
+#img-logo {
     height: 100%;
     width: 100%;
 }
 
-.nav-cabeca H3{
+.nav-cabeca H3 {
     color: var(--cinza-control);
     width: 80%;
     padding-left: 20px;
@@ -60,10 +60,10 @@
     font-size: 23px;
 }
 
-.area-servicos{
+.area-servicos {
     height: calc(100vh - 140px);
     width: 100%;
-    display: flex;  
+    display: flex;
     background-image: url(..//telaautoatendimento_passcontrol-/background.png);
     background-size: 400px;
     background-repeat: no-repeat;
@@ -73,12 +73,13 @@
     align-items: center;
     justify-content: center;
     /* padding: 20px; */
-    
-    
+
+
 }
 
-.selecione-servico{
-    margin-top:0px;
+
+
+.selecione-servico {
     align-items: center;
     justify-content: center;
     font-size: 32px;
@@ -88,69 +89,89 @@
     font-weight: 800;
 }
 
-.box-servicos{
-    height: 90%;
-    width: 90%;
-    background-color:rgba(0, 0, 0, 0.1);
-    border-radius: 5px 5px 5px 5px;
-    /* margin-top: 50px; */
+.espaco {
+    background-color: black; /* Define a cor preta */
+    height: 50px; /* Define a altura da linha */
+    width: 100%; /* Faz com que ocupe toda a largura disponível */
+    margin: 10px 0; /* Adiciona um espaçamento acima e abaixo, opcional */
+}
+
+.fundo-cinza{
+     background-color: rgba(0, 0, 0, 0.1); 
+     margin-top: 26% ;
+     width: 1300px;
+     height: 1000px;
+} 
+
+.box-servicos {
+    width: auto; /* Largura ajustada com margens */
+    max-width: 1200px; /* Define uma largura máxima, opcional */
+    padding: 20px; /* Espaçamento interno para afastar o conteúdo das bordas */
+    margin: 20px auto; /* Centraliza horizontalmente a seção */
     display: flex;
-    /* margin-right: 0px; */
-    /* margin-left: 50px; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.area-quadrados{
-    display:flex ;
-    width: 70%;
-    height: 80%;
+
+.area-quadrados {
+    display: flex;
+    width: auto;
+    height: auto;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 10px;
-    gap: 40px;
+    margin-top: 50px;
+    gap: 50px;
     /* background-color: aliceblue; */
     flex-direction: row;
     align-items: center;
     border: #33404D;
     border-radius: 5px 5px 5px 5px;
     /* padding: 20px; */
-    
+
 }
 
-.quadrado{
+.quadrado {
     border: 4px solid var(--verde-control);
     position: relative;
     border-radius: 5px;
     gap: 18px;
-    width: 221px;
-    height: 221px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
     background-color: transparent;
-    
+
 }
 
-.imagem-servico{
+.imagem-servico {
     /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100px;
 }
 
-.nome-servico{
+.nome-servico {
     display: flex;
     justify-content: center;
 
 }
 
-.btn-proximaPagina{
+.seta {
+    display: flex;
+    justify-content: flex-end; /* Alinha o botão à direita */
+    align-items: flex-end; /* Alinha o botão ao fundo */
+    width: 100%; /* Garante que ocupa toda a largura do contêiner pai */
+}
+
+.btn-proximaPagina {
     background-color: transparent;
     color: var(--cinza-control);
-    height: 90px;
-    width: 90px;
-    position: fixed;
-    right: 150px;
-    display: flex;   
+    display: flex;
+    justify-content: center; /* Centraliza a seta horizontalmente */
+    align-items: center; /* Centraliza a seta verticalmente */
+    cursor: pointer; /* Adiciona cursor de clique */
+    font-size: 50px;
 }
+
 
