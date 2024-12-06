@@ -61,7 +61,7 @@
   height: calc(100vh - 140px);
   width: 100%;
   display: flex;
-  background-image: url(..//telaautoatendimento_passcontrol-/background.png);
+  background-image: url(../assets/background.png);
   background-size: 400px;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -91,6 +91,7 @@
   margin-top: 50px;
   width: 1300px;
   height: 1000px;
+  border-radius: 5px;
 }
 
 .box-servicos {
